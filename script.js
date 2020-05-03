@@ -33,6 +33,7 @@ nineAMbtn.onclick = function () {
 var valueNineAm = localStorage.getItem("text9AM");
 nineAM.innerHTML = valueNineAm;
 
+
 tenAMbtn.onclick = function () {
     var tenAMvalue = tenAM.value;
 
@@ -40,6 +41,7 @@ tenAMbtn.onclick = function () {
 };
 var valueTenAm = localStorage.getItem("text10AM");
 tenAM.innerHTML = valueTenAm;
+
 
 elevenAMbtn.onclick = function () {
     var elevenAMvalue = elevenAM.value;
@@ -49,6 +51,7 @@ elevenAMbtn.onclick = function () {
 var valueElevenAM = localStorage.getItem("text11AM");
 elevenAM.innerHTML = valueElevenAM;
 
+
 twelvePMbtn.onclick = function () {
     var twelvePMvalue = twelvePM.value;
 
@@ -56,6 +59,7 @@ twelvePMbtn.onclick = function () {
 };
 var valueTwelvePM = localStorage.getItem("text12PM");
 twelvePM.innerHTML = valueTwelvePM;
+
 
 onePMbtn.onclick = function () {
     var onePMvalue = onePM.value;
@@ -65,6 +69,7 @@ onePMbtn.onclick = function () {
 var valueOnePM = localStorage.getItem("text1PM");
 onePM.innerHTML = valueOnePM;
 
+
 twoPMbtn.onclick = function () {
     var twoPMvalue = twoPM.value;
 
@@ -72,6 +77,7 @@ twoPMbtn.onclick = function () {
 };
 var valueTwoPM = localStorage.getItem("text2PM");
 twoPM.innerHTML = valueTwoPM;
+
 
 threePMbtn.onclick = function () {
     var threePMvalue = threePM.value;
@@ -81,6 +87,7 @@ threePMbtn.onclick = function () {
 var valueThreePM = localStorage.getItem("text3PM");
 threePM.innerHTML = valueThreePM;
 
+
 fourPMbtn.onclick = function () {
     var fourPMvalue = fourPM.value;
 
@@ -88,6 +95,7 @@ fourPMbtn.onclick = function () {
 };
 var valueFourPM = localStorage.getItem("text4PM");
 fourPM.innerHTML = valueFourPM;
+
 
 fivePMbtn.onclick = function () {
     var fivePMvalue = fivePM.value;
